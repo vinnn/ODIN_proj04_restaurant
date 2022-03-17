@@ -9,16 +9,13 @@ body {
 
     background-image: url("./img/pexels-chan-walrus-958545.jpg");
     background-size: cover;
-
 }
-
 #content {
     height: 100%;
 
     display: flex;
     flex-direction: column;
 }
-
 #cont-page {
     flex: auto;
 }
@@ -100,20 +97,17 @@ body {
 				 -3px -3px 0 rgb(0, 195, 255);
     text-align: center;
 }
-
 #div-menus {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 10px;
 }
-
 .div-menu {
     width: 400px;
     background-color:rgb(231, 172, 62);
     border: 5px solid rgb(0, 195, 255);
 }
-
 .div-menu-name {
     width: 100px;
     padding: 5px 20px;
@@ -139,14 +133,12 @@ body {
 				 -3px -3px 0 rgb(0, 195, 255);
     text-align: center;
 }
-
 #div-contacts {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
-
 .div-contact {
     width: 600px;
     padding: 5px 20px;
