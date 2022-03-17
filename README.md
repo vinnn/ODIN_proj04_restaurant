@@ -2,7 +2,6 @@
 
 
 ### Scope
-Ths assignement includes a number of instructions:
 - apply newly learnt concepts/tools: npm package, webpack, ES6 modules
 - code in modules (each page - home/menu/contact - written in separate modules)
 - the logic / event listeners to be in index.js
