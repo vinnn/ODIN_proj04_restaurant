@@ -1,0 +1,163 @@
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* general */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+body {
+    width: 98vw;
+    height: 97vh;
+
+    background-image: url("./img/pexels-chan-walrus-958545.jpg");
+    background-size: cover;
+
+}
+
+#content {
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#cont-page {
+    flex: auto;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* nav */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#cont-nav {
+    flex: 0;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.nav-btn {
+    width: 100px;
+    background-color: orange;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: -1px 1px 0 rgb(0, 195, 255),
+                1px 1px 0 rgb(0, 195, 255),
+                1px -1px 0 rgb(0, 195, 255),
+                -1px -1px 0 rgb(0, 195, 255);
+
+    border: 5px solid rgb(0, 195, 255);
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* footer */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#cont-footer {
+    flex: 0;
+    height: 40px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div {
+    font-size: 16px;
+    color: yellow;
+    text-shadow: -1px 1px 0 rgb(0, 195, 255),
+                1px 1px 0 rgb(0, 195, 255),
+                1px -1px 0 rgb(0, 195, 255),
+                -1px -1px 0 rgb(0, 195, 255);
+    margin: 0 30px;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* home */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#div-home {
+	color: yellow;
+	font-size: 100px;
+	text-shadow: -3px 3px 0 rgb(0, 195, 255),
+				 3px 3px 0 rgb(0, 195, 255),
+				 3px -3px 0 rgb(0, 195, 255),
+				 -3px -3px 0 rgb(0, 195, 255);
+    text-align: center;
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* menu */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#div-menu-title {
+	color: yellow;
+	font-size: 100px;
+	text-shadow: -3px 3px 0 rgb(0, 195, 255),
+				 3px 3px 0 rgb(0, 195, 255),
+				 3px -3px 0 rgb(0, 195, 255),
+				 -3px -3px 0 rgb(0, 195, 255);
+    text-align: center;
+}
+
+#div-menus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.div-menu {
+    width: 400px;
+    background-color:rgb(231, 172, 62);
+    border: 5px solid rgb(0, 195, 255);
+}
+
+.div-menu-name {
+    width: 100px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: -1px 1px 0 rgb(0, 195, 255),
+                1px 1px 0 rgb(0, 195, 255),
+                1px -1px 0 rgb(0, 195, 255),
+                -1px -1px 0 rgb(0, 195, 255);
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* contact */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+#div-contact-title {
+	color: yellow;
+	font-size: 100px;
+	text-shadow: -3px 3px 0 rgb(0, 195, 255),
+				 3px 3px 0 rgb(0, 195, 255),
+				 3px -3px 0 rgb(0, 195, 255),
+				 -3px -3px 0 rgb(0, 195, 255);
+    text-align: center;
+}
+
+#div-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.div-contact {
+    width: 600px;
+    padding: 5px 20px;
+    font-size: 20px;
+    color: yellow;
+    text-shadow: -1px 1px 0 rgb(0, 195, 255),
+                1px 1px 0 rgb(0, 195, 255),
+                1px -1px 0 rgb(0, 195, 255),
+                -1px -1px 0 rgb(0, 195, 255);
+
+                background-color:rgb(231, 172, 62);
+                border: 5px solid rgb(0, 195, 255);
+}
+
