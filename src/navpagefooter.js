@@ -1,7 +1,4 @@
-
 export default function displayNavPageFooter() {
-
-    console.log("in displayNavPageFooter");
 
     // container
     const div_content = document.getElementById("content");
@@ -33,9 +30,7 @@ export default function displayNavPageFooter() {
     // add page content (empty)
     const cont_page = document.createElement('div');
     cont_page.id = "cont-page";
-
     div_content.appendChild(cont_page);
-
 
     // display footer
     const cont_footer = document.createElement('div');
@@ -54,7 +49,6 @@ export default function displayNavPageFooter() {
     cont_footer.appendChild(div_right);
 
     div_content.appendChild(cont_footer);
-
 }
 
 

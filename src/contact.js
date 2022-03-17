@@ -1,7 +1,4 @@
-
 export default function displayContact() {
-
-    console.log("in displayContact");
 
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
@@ -44,6 +41,5 @@ export default function displayContact() {
     div_address.classList.add('div-contact');
     div_address.textContent = "ADDRESS : " + address;
     div_contacts.appendChild(div_address);
-
-
 }
+

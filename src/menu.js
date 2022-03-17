@@ -1,7 +1,4 @@
-
 export default function displayMenu() {
-
-    console.log("in displayMenu");
 
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
@@ -30,7 +27,7 @@ export default function displayMenu() {
         "curry Wind" : ["Tandoori Wild Tiger Prawns with coriander, mint & chili Kerala style spicy Quail with Madras Shallots & Coconut flakes", "Roast Halibut Karaikal with Pandan Leaf", "Gulabjam Sweet and Coffee or Tea"],
 
         "curry Fire" : ["Kerala style spicy Quail with Madras Shallots & Coconut flakes Smoked Chicken Tikka with garam masala & mace", "Speciality Prawn curry from the kitchen of Raja of Travancore, with coconut & kokum flowers", "Gulabjam Sweet and Coffee or Tea"]
-    }
+    };
 
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -61,5 +58,5 @@ export default function displayMenu() {
 
         div_menus.appendChild(div_menu);     
     }
-
 }
+
