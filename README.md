@@ -16,7 +16,7 @@ I have tried to keep the code and website very simple to focus essentially on th
 $ npx webpack --watch
 
 ## View page
-https://vinnn.github.io/ODIN_restaurant/
+https://vinnn.github.io/ODIN_proj04_restaurant/
 
 ## Thank you
 Thank you the Odin Project
